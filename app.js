@@ -32,7 +32,7 @@ function loadPoint(x, y){
     point.style.left = x + 'px';
     point.style.top = y + 'px';
 
-    if(score === 5){
+    if(score === 15){
         point.style.display = 'none';
         lastPoint.style.display = 'block';
     }
