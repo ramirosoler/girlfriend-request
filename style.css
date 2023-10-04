@@ -3,7 +3,7 @@ body {
     display: grid;
     justify-content: center;
     place-items: center;
-    grid-template-rows: 5% 80% 15%;
+    grid-template-rows: 4% 76% 20%;
     grid-template-columns: 1fr;
     height: 100vh;
 }
