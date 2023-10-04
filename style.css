@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template-rows: 5% 85% 10%;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+
+.message{
+    border-radius: 15px;
+    padding: 15px;
+    width: 98%;
+    display: none;
+    height: 100%;
+    grid-area: 2/1;
+    font-size: 12px;
+    background-color: #F6DDCC;
+}
+
+.last_point{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    grid-area: 2/1;
+    background-color: #0fbd0f;
+    display: none;
+    position: absolute;
+}
+
+.point{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    grid-area: 2/1;
+    background-color: #ff0000;
+    position: absolute;
+}
+
+.movable {
+    top: 250px;
+    left: 150px;
+    grid-area: 2/1; 
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.score{
+    width: 100%;
+    text-align: right;
+    padding: 15px;
+}
+
+.score p {
+    margin-top: 15px;
+}
+
+.buttons{
+    grid-area: 3/1;
+}
+
+.error-message {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+}

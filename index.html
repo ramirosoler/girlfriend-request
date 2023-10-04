@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K <3</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/03b0ac721b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="score" id="score">
+      <p>Puntaje: 0</p>
+    </div>
+
+    <div class="point" id="point"></div>
+
+    <div class="last_point" id="last_point"></div>
+
+    <div id="movable-div" class="movable"></div>
+    <div class="message" id="message">
+      <p>
+        Existen mas de 93.000 palabras en el abecedario español, pero ninguna de
+        esas palabras es suficiente para iniciar este mensaje, pues simplemente,
+        despues de mucho tiempo me atrevo a decirte esto. He pasado días
+        increibles contigo y como siempre he dicho
+        <b> "hay días buenos, hay días malos" </b> pero estos meses han sido
+        días espectaculares, días que aprendido mucho de tí.... desde ya hace
+        tiempo atras, me empezaste a llamar la atencion y fue ahí que comenze a
+        investigar poco a poco sobre tí, contandole a mis sueños lo increible
+        que te veias, lo increible que eras y lo comprometida que podias llegas
+        a ser. Claro me daba "pena" o simplemente temor de perderte porque al
+        mismo tiempo que investigaba sobre tí, me di cuenta que eras una gran
+        amiga, una gran persona una persona que simplemente no hay una copia.
+        <br />
+        Al mismo tiempo lograste despertar un sentimiento que crei que no iba a
+        volver a sentir despues de mucho tiempo, y hacer que ese temor que tenia
+        desapareciera junto a otros prejuicios, y no es un secreto decir que en
+        realidad "me gustas", me gusta tu carisma, me gusta tu personalidad, me
+        gusta tu forma de ser, me gusta pasar tiempo contigo,
+        <b>me gustas TÚ</b> y por fortuna, no es un decir, ni mas faltaba es una
+        realidad Dicho esto, y con mucho mas por decir,
+        <b>¿Quieres intentar las cosas?</b>
+      </p>
+    </div>
+
+    <div class="buttons" id="buttons">
+      <button type="button" class="btn btn-primary" id="move-left">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button id="move-up" class="btn btn-danger">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+      <button id="move-right" class="btn btn-success">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <button id="move-down" class="btn btn-info">
+        <i class="fa-solid fa-arrow-down"></i>
+      </button>
+    </div>
+
+    <div id="error-message" class="error-message hidden">
+      ¡Has alcanzado una pared!
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
